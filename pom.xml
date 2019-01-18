@@ -380,6 +380,17 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.jboss.as.plugins</groupId>
+                    <artifactId>jboss-as-maven-plugin</artifactId>
+                        <version>7.5.Final</version>
+                    <configuration>
+                        <hostname>server5.ose.pe</hostname>
+                    <port>9990</port>
+                        <username>osejenkins</username>
+                    <password>ose@2019</password>
+   </configuration>
+</plugin>
         </plugins>
     </build>
     <reporting>
