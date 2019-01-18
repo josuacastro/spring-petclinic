@@ -389,8 +389,11 @@
                     <port>9990</port>
                         <username>osejenkins</username>
                     <password>ose@2019</password>
-   </configuration>
-</plugin>
+                    </configuration>
+                </plugin>
+            <pluginGroups>
+                <pluginGroup>org.wildfly.plugins</pluginGroup>
+            </pluginGroups>
         </plugins>
     </build>
     <reporting>
